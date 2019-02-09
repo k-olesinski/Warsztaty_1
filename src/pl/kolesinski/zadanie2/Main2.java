@@ -41,7 +41,7 @@ public class Main2 {
                 win++;
             }
         }
-        System.out.println("trafione liczby: " + win);
+        System.out.println("liczba trafionych numerów: " + win);
     }
 
     static int giveNumber() {
