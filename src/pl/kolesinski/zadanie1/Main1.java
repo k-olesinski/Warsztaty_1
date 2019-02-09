@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main1 {
     public static void main(String args[]) {
         Random random = new Random();
-        int computerRandomNumber = random.nextInt(101)+1;
+        int computerRandomNumber = random.nextInt(100)+1;
 
         System.out.print("zgadnij liczbę od 1 do 100: ");
         int number = getNumber();
